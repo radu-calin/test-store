@@ -10,7 +10,7 @@ import java.util.Map;
 @Repository
 public class StoreDAO {
     static {
-        stores = new HashMap<Integer, Store>(){{
+        stores = new HashMap<>() {{
             put(1, new Store());
             put(2, new Store());
             put(3, new Store());
